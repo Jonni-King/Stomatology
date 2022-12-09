@@ -11,6 +11,126 @@ body {
 
 width: 100%;
 max-width: 1660px;
-padding: 0 130px;
+padding: 0 50px;
 margin: 0 auto;
 }
+
+/* header */
+
+.header__container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 105px;
+}
+.header__logo {
+margin-right: 35px;
+}
+.navigations__items {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.header__contacts-items {
+    display: flex;
+}
+
+/* messangers */
+
+.messengers__item {
+padding: 5px;
+
+}
+
+.messangers-icon {
+    min-width: 25px;
+    min-height: 25px;
+}
+
+/* navigtions */
+
+.navigtions__item {
+    padding: 7px 15px;
+    
+}
+
+.navigtions__link {
+    font-family: "Roboto", sans-serif;
+    line-height: 17px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+
+/* contcts */
+
+.header__contacts-city {
+    /* align-items: center; */
+    display: flex;
+    margin-right: 35px;
+}
+.header__adress {
+    font-family: "Roboto", sans-serif;
+    line-height: 15px;
+    font-weight: 400;
+    color: #474747;
+
+}
+.header__icon-geotag {
+    margin-right: 5px;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+.header__time-job {
+    display: flex;
+    margin-right: 35px;
+    align-items: center;
+}
+.header__calendar{
+    margin-right: 5px;
+}
+.header__time {
+    font-family: "Roboto", sans-serif;
+    line-height: 17px;
+    font-weight: 400;
+    color: #12354B;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.header__days {
+    font-family: "Roboto", sans-serif;
+    line-height: 17px;
+    font-weight: 400;
+    color: #909090;
+    font-size: 15px;
+}
+.logo-phone {
+    margin-right: 5px;
+}
+.phone {
+    font-family: "Roboto", sans-serif;
+    line-height: 15px;
+    font-weight: 700;
+    color: #3C3C3C;
+    font-size: 22px;
+    margin-right: 25px;
+}
+
+/* btn */
+
+.btn {
+    padding: 13px 32px;
+    background-color: #38BCEA;
+    color: #FFFFFF;
+    border-radius: 7px;
+}
+
+/* treatment */
+
+.treatment__left {
+display: flex;
+}
+
+.treatment__bottom {}
