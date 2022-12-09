@@ -126,3 +126,11 @@ padding: 5px;
     color: #FFFFFF;
     border-radius: 7px;
 }
+
+/* treatment */
+
+.treatment__left {
+display: flex;
+}
+
+.treatment__bottom {}
